@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background-color: #D8D8D8;
+}
+
+header {
+  background-color: #444;
+  padding: 10%;
+}
+
+#center {
+  background-color: white;
+  height: 750px;
+  width: 400px;
+  margin: auto;
+}
+
+/*.left {
+  background-color: #D8D8D8;
+  width: 15%;
+  height: 500px;
+  float: left;
+}
+
+.right {
+  background-color: #D8D8D8;
+  width: 15%;
+  height: 500px;
+  float: right;
+}*/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #222;
+  height: 5%;
+  width: inherit;
+  margin: auto;
+}
