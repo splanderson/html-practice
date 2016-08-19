@@ -1,0 +1,38 @@
+* {
+  height: 100vh;
+  margin: 0;
+}
+
+.left {
+  background-color: #4A90E2;
+  width: 33.33%;
+  float: left;
+}
+
+.center {
+  background-color: #50E3C2;
+  width: 33.33%;
+  float: left;
+}
+
+.right {
+  background-color: #B8E986;
+  width: 33.33%;
+  float: left;
+  position: relative;
+}
+
+/*.right-image img {
+  height: auto;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+}*/
+
+.right img {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+}
