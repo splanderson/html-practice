@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  height: 100vh;
+}
+
+header {
+  background-color: #D8D8D8;
+  height: 15%;
+}
+
+#user-icon {
+  background-color: #4A90E2;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  float: left;
+  position: relative;
+}
+
+p {
+  height: 15%;
+  padding: 2.5%;
+  font-family: sans-serif;
+  font-size: x-large;
+}
+
+.one {
+  background-color: #4A90E2;
+  height: 15%;
+  width: 100%;
+}
+
+.two {
+  background-color: #50E3C2;
+  height: 15%;
+  width: 100%;
+}
+
+.three {
+  background-color: #B8E986;
+  height: 15%;
+  width: 100%;
+}
+
+.four {
+  background-color: #F8E71C;
+  height: 15%;
+  width: 100%;
+}

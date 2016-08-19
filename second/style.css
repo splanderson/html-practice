@@ -22,17 +22,19 @@
   position: relative;
 }
 
-/*.right-image img {
-  height: auto;
-  background-size: cover;
-  position: absolute;
-  bottom: 0;
-}*/
-
-.right img {
-  height: auto;
+.right-image {
+  background: url("https://i.imgur.com/Q3cUg29.gif") no-repeat;
+  height: 500px;
   width: 100%;
   background-size: cover;
   position: absolute;
   bottom: 0;
 }
+
+/*.right img {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+}*/
