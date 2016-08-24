@@ -1,15 +1,28 @@
 body {
   background-color: white;
   font: 13px/1.5 sans-serif;
-  margin: 0.3em 0;
+  margin: 2.5em 0;
+  margin-bottom: 0;
 }
 
-a {
+a, a:active, a:focus {
   unicode-bidi: embed;
   white-space: nowrap;
   outline: 0;
   color: #0645AD;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  clear: both;
+  height: 0;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  margin: 0.2em 1em;
 }
 
 p {
@@ -20,6 +33,16 @@ p {
 img {
   border: none;
   vertical-align: middle;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 0;
+  margin: 0 10px;
 }
 
 .intro {
@@ -33,25 +56,30 @@ img {
 
 .otherprojects {
   font-weight: bold;
-  margin: 1.5em auto;
+  margin: 3.7em auto;
   text-align: left;
   vertical-align: middle;
-  width: 80%;
+  width: 90%;
 }
 
 .otherprojects-item {
   float: left;
-  height: 175px;
+  height: 60px;
+  min-width: 12em;
   width: 24.75%;
-  min-width: 150px;
-  max-width: 300px;
-  line-height: 175px;
+  line-height: 60px;
 }
 
 .otherprojects-item a {
-  width: 150px;
+  width: 10em;
   display: block;
   margin: 0 auto;
+}
+
+.otherprojects-item .icon {
+  display: inline-block;
+  width: 47px;
+  text-align: center;
 }
 
 .footer {
